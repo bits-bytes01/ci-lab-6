@@ -16,6 +16,6 @@ jobs:
          run: cat message.txt
 
        - name: Check file contains expected text
-         run: grep."hello from ci/cd lab" message.txt
+         run: grep "hello from ci/cd lab" message.txt
 
    

@@ -8,7 +8,7 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    stratergy:
+    strategy:
        matrix:
          python-version:["3.10","3.12"]
     steps:
